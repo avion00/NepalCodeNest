@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&family=Rubik:wght@300;400;500;600&display=swap");
 
-/*
-Fonts:
-    - Poppins: 300, 400, 600, 700, 800
-    - Rubik: 300, 400, 500, 700
-*/
-
 :root {
   --primary-color: #063abf;
   --secondary-color: #794afa;
@@ -172,8 +166,10 @@ svg {
 
 /* nav-seaction */
 .navbar_section {
-  border-bottom: 1px soli violet;
-  border: 1px groove var(--border-color);
+  position: fixed;
+  background-color: var(--white-color);
+  width: 100%;
+  border-top: 1px groove var(--border-color);
 }
 
 .navbar_section
